@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Check Triangle</title>
+    <link rel="stylesheet" href="../style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Play with triangles</h1>
+      <nav>
+        <a href="../index.html">Quiz</a>
+        <a href="../routes/angles.html">Check Triangle</a>
+        <a href="../routes/hypo.html">Check Hypotenuse</a>
+        <a href="../routes/area.html">Check Area</a>
+      </nav>
+    </header>
+    <main class="angles-triangles-main">
+      <h2>Angles of triangles</h2>
+      <p>Enter the three angles and see if they can form a triangle.</p>
+      <label class="input-label" for="Angle1">
+        <p>Angle1</p>
+      </label>
+      <input type="number" class="input-text angle-input" />
+      <label class="input-label" for="Angle2">
+        <p>Angle2</p>
+      </label>
+      <input type="number" class="input-text angle-input" />
+      <label class="input-label" for="Angle3">
+        <p>Angle3</p>
+      </label>
+      <input type="number" class="input-text angle-input" />
+      <button class="btn-check" id="is-triangle-btn">Check</button>
+      <h2 class="output"></h2>
+      <p id="output" class="output"></p>
+    </main>
+    <footer>
+      <p>Created by Monojit Chakraborty &copy; 2021</p>
+    </footer>
+    <script src="../scripts/angles-triangles.js"></script>
+  </body>
+</html>

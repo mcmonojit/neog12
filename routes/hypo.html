@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Check Hypotenuse</title>
+    <link rel="stylesheet" href="../style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Play with triangles</h1>
+      <nav>
+        <a href="../index.html">Quiz</a>
+        <a href="../routes/angles.html">Check Triangle</a>
+        <a href="../routes/hypo.html">Check Hypotenuse</a>
+        <a href="../routes/area.html">Check Area</a>
+      </nav>
+    </header>
+    <main class="calculate-hypo-main">
+      <h2>Calculate Hypotenuse of a triangle</h2>
+      <p>Enter the base and height of  triangle and calculate it's hypotenuse. Hypotenuse formula : √(base² + height²).</p>
+      <label class="input-label" for="a"
+        ><p>Enter base value (a) =</p>
+        <input type="number" class="input-text side-input" />
+      </label>
+      <label class="input-label" for="b">
+        <p>Enter height value (b) =</p>
+        <input type="number" class="input-text side-input" />
+      </label>
+      <button class="btn-check" id="calculate-hypotenuse-btn">
+        Calculate Hypotenuse
+      </button>
+      <h2 class="output"></h2>
+    </main>
+    <footer>
+      <p>Created by Monojit Chakraborty &copy; 2021</p>
+    </footer>
+    <script src="../scripts/calculate-hypo.js"></script>
+  </body>
+</html>
