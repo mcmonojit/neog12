@@ -12,7 +12,6 @@ const correctAnswers = [
   "30°",
   "a + b + c",
   "no",
-  "45°",
 ];
 
 function calculateScore() {
