@@ -5,7 +5,7 @@ const outputEl = document.querySelector(".output");
 const correctAnswers = [
   "90°",
   "right angled",
-  "one right angle",
+  "(h*b)/2",
   "12, 16, 20",
   "Equilateral triangle",
   "100°",
